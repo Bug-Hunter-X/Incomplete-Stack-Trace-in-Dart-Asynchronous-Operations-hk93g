@@ -1,0 +1,3 @@
+# Incomplete Stack Trace in Dart Asynchronous Operations
+
+This repository demonstrates a common issue in Dart where exceptions within asynchronous operations may not provide a complete stack trace, making debugging more challenging. The issue arises due to how exceptions are handled and propagated within `async` functions and `Future`s.  The provided example shows how a simple `try-catch` block might not provide sufficient information when errors occur during network requests or other asynchronous operations.
